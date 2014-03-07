@@ -1,0 +1,10 @@
+.Left{float:left}
+.Right{float:right}
+.bxDetalhedPort{width:960px;mairgin:auto;height:800px;background-color:#06c6f1}
+.bxThumbPort{width:30%;height:100%}
+.bxInfoPort{width:68%;height:100%;margin-top:117px}
+.logoPort{width:95%;height:110px;margin:15px 0 0 5px}
+.bxItemThumbPort .item{width:130px;height:120px;margin:5px;border:2px solid #fff;-webkit-box-shadow:0 2px 8px #000;-moz-box-shadow:0 2px 8px #000;box-shadow:0 2px 8px #000}
+.dbItemPortInfo{width:93%;height:270px;margin:10px 0 20px 0;background-color:#ea1a71;border:4px solid #fff;-webkit-box-shadow:0 8px 8px #44ebff;-moz-box-shadow:0 8px 8px #44ebff;box-shadow:0 8px 8px #44ebff;padding:30px 0 0 20px}
+.dbItemPortInfo p{font-family:'Quicksand',sans-serif;color:#fff;font-size:13px;text-shadow:1px 1px #000}
+.dbItemPortInfo span{font-family:'Electrolize',sans-serif;color:#06c6f1;font-size:22px;font-weight:800;text-shadow:1px 1px #000}

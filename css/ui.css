@@ -1,0 +1,12 @@
+.bxItemEquip{width:200px;height:300px;border:2px solid #000;margin-top:43px;background-color:#ffce8e;padding:32px;float:left;margin-left:5px}
+.bxItemEquip img{width:120px;height:120px;border:1px solid #000;border-top:2px solid #000;border-bottom:none;border-radius:60px;position:relative;left:22%;top:-83px;float:left;margin:0;clear:both}
+.bxItemEquip .txt{font-family:"Marvel";margin-top:-60px;margin-bottom:6px}
+.bxItemEquip p{font-family:"Marvel";margin-top:0;margin-bottom:6px}
+.bxItemEquip span{font-size:22px}
+.clear{clear:both}
+.bxBT{width:200px;margin:auto;bottom:-81px;position:relative}
+.btPro{width:35px;height:35px;float:left;margin:5px;background-size:35px 35px;background-repeat:no-repeat}
+.like{background-image:url(../img/Icon/WebSites/Favorite.png)}
+.share{background-image:url(../img/Icon/WebSites/Share.png)}
+.mail{background-image:url(../img/Icon/WebSites/@.png)}
+.link{background-image:url(../img/Icon/Life/Cloud.png)}

@@ -1,0 +1,41 @@
+.sl-slider-wrapper{width:100%;height:550px;margin:0 auto;position:relative;overflow:hidden}
+.sl-slider{position:absolute;top:0;left:0}
+.sl-slide,.sl-slides-wrapper,.sl-slide-inner{position:absolute;width:100%;height:100%;top:0;left:0}
+.sl-slide{z-index:1}
+.sl-content-slice{overflow:hidden;position:absolute;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;background:#fff;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden;opacity:1}
+.sl-slide-horizontal .sl-content-slice{width:100%;height:50%;left:-200px;-webkit-transform:translateY(0) scale(1);-moz-transform:translateY(0) scale(1);-o-transform:translateY(0) scale(1);-ms-transform:translateY(0) scale(1);transform:translateY(0) scale(1)}
+.sl-slide-horizontal .sl-content-slice:first-child{top:-200px;padding:200px 200px 0 200px}
+.sl-slide-horizontal .sl-content-slice:nth-child(2){top:50%;padding:0 200px 200px 200px}
+.sl-slide-vertical .sl-content-slice{width:50%;height:100%;top:-200px;-webkit-transform:translateX(0) scale(1);-moz-transform:translateX(0) scale(1);-o-transform:translateX(0) scale(1);-ms-transform:translateX(0) scale(1);transform:translateX(0) scale(1)}
+.sl-slide-vertical .sl-content-slice:first-child{left:-200px;padding:200px 0 200px 200px}
+.sl-slide-vertical .sl-content-slice:nth-child(2){left:50%;padding:200px 200px 200px 0}
+.sl-content-wrapper{position:absolute}
+.sl-content{width:100%;height:100%;background:#fff}
+.sl-slide-horizontal .sl-slide-inner{background:#ddd}
+.sl-slide-vertical .sl-slide-inner{background:#ccc}
+*{margin:0;padding:0}
+html{overflow-y:scroll}
+.clear{clear:both}
+.floatLeft{float:left}
+.floatRight{float:right}
+@-webkit-keyframes STAR-MOVE{from{left:0;top:0} to{left:-10000px;top:-2000px}}#background{background:#000 url(../img/background.png) repeat 5% 5%;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-100;-webkit-animation-name:STAR-MOVE;-webkit-animation-duration:200s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite}
+#midground{background:url(../img/midground.png) repeat 20% 20%;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-200;-webkit-animation-name:STAR-MOVE;-webkit-animation-duration:150s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite}
+#foreground{background:url(../img/foreground.png) repeat 35% 35%;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-300;-webkit-animation-name:STAR-MOVE;-webkit-animation-duration:100s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite}
+#sidebar{width:160px;float:left;margin-right:20px}
+#main-content{width:540px;float:right}
+#page-wrap{width:720px;margin:0 auto;position:relative;z-index:300;background:rgba(0,0,0,0.7);overflow:hidden;padding:30px 50px}
+h1{font:42px Georgia,Serif;margin:0 0 10px 0;color:#eee}
+h2{font:20px Georgia,Serif;margin:0 0 1px 0;color:#eee}
+h2.bump{text-indent:200px}
+p{margin:0 0 15px 0}
+code{color:#fff;margin:-1px 0 0 0;font:10px Courier}
+p.thinParagraph{width:340px}
+blockquote.right{float:right}
+ul.meta{width:180px;margin:0 10px 0 0;list-style:none;float:left}
+ul.meta li{text-align:right}
+ul.meta li.author{font:normal small-caps normal 15px Georgia,Serif;margin:0 0 2px 0;letter-spacing:2px}
+ul.meta li.date{margin:0 0 10px 0}
+ul.meta li.comments{font-style:italic}
+.article{float:right;width:340px}
+ol{margin:20px 0;list-style:inside decimal}
+.circular{width:300px;height:300px;border-radius:150px;-webkit-border-radius:150px;-moz-border-radius:150px;background:url(http://static.guim.co.uk/sys-images/BOOKS/Pix/pictures/2011/1/6/1294327950931/Isaac-Asimov-007.jpg) no-repeat;background-size:100% 100%}

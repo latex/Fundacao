@@ -1,0 +1,41 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+.clear{clear:both}
+body{background-color:#000;padding:0;margin:0}
+header{margin:0;z-index:501}
+header .container{background-color:#06c6f1;height:721px}
+.container{background-color:#44ebff;width:960px;height:560px;margin:0 auto;padding:0;z-index:500}
+.bxLogo{width:300px;height:52px;float:left;margin:30px}
+.logo{-webkit-filter:invert(100%);width:70px;float:left}
+.txtLogo{font-family:'Orbitron',sans-serif;font-size:2em;font-weight:700;color:#fff;vertical-align:top;float:left;margin:12px 0 0 0}
+.subLogo{font-family:'Wire One',sans-serif;font-size:1.1em;font-weight:700;color:#000;vertical-align:top}
+.menu{margin:10px 0 0 0;text-align:center}
+.menu ul{padding:1em;background-color:#fd02b0;color:#fff;font-family:Marvel}
+.menu ul li{display:inline;padding:1em;margin:1em}
+.menu ul li:hover{background-color:#ffce8e;color:#000}
+@-webkit-keyframes STAR-MOVE{from{background-position:5% 5%} to{background-position:1300% 600%}}#background{background:#000 url(../img/background.png) repeat 5% 5%;position:absolute;top:0;left:0;right:0;bottom:0;z-index:10;-webkit-animation-name:STAR-MOVE;-webkit-animation-duration:500s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite}
+#midground{background:url(../img/midground.png) repeat 20% 20%;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-200;-webkit-animation-name:STAR-MOVE;-webkit-animation-duration:150s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite}
+#foreground{background:url(../img/foreground.png) repeat 35% 35%;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-300;-webkit-animation-name:STAR-MOVE;-webkit-animation-duration:100s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite}
+.bxSlider{height:100%}
+.bxDisplayInfo{width:960px;height:16px;background-color:#ffce8e;font-family:'Orbitron',sans-serif;text-align:center;font-size:24px;vertical-align:middle;padding:39px 0}
+.itens{text-align:center;width:90%;margin:50px auto}
+.bsItem{width:267px;height:500px;margin:10px;text-align:center;padding:6px;float:left}
+.bsItem p{font-family:'Quicksand',sans-serif;color:#fff;line-height:25px}
+.bsItem button{margin:0 0 0 0;width:230px;height:39px;background-color:#06c6f1;border:1px solid #06c6f1;border-radius:10px;bottom:0;position:relative;font-family:'Electrolize',sans-serif;color:#fff;font-size:27px;font-weight:200}
+article .container{height:800px}
+footer .container{background-color:#06c6f1;height:221px}
+#hPort{height:420px}
+.itemPort{margin:30px;width:300px;height:250px;background-color:#fff;float:left;border:1px solid #cc9;-webkit-box-shadow:0 8px 18px #323232;-moz-box-shadow:0 8px 18px #323232;box-shadow:0 8px 18px #323232;text-align:center}
+.itemPort ul{border:1px solid}
+.itemPort ul li{display:inline;margin:5px;border:1px solid;padding:1em}
+.bxBT{width:200px;margin:auto}
+.btPro{width:35px;height:35px;float:left;margin:5px;background-size:35px 35px;background-repeat:no-repeat}
+.like{background-image:url(../img/Icon/WebSites/Favorite.png)}
+.share{background-image:url(../img/Icon/WebSites/Share.png)}
+.mail{background-image:url(../img/Icon/WebSites/@.png)}
+.link{background-image:url(../img/Icon/Life/Cloud.png)}
